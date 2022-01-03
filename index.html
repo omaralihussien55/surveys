@@ -1,215 +1,162 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Omar Ali</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="./css/font-awesome.min.css" >
+    
+    <link rel="stylesheet"  href="./css/birds.css" >
+    <title>survys</title>
 </head>
 <body>
-    <header >
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <div class="container">
-        <a class="navbar-brand font-italic" href="#">Omar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg">
+    <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./img/images/logo.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"> القائمة الرئيسية <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item position-relative ">
+          <span class="number-survy"></span>
+          <a class="nav-link ml-4" href="survy.html">الاستطلاعات </a>
+        </li>
+       
+        <li class="nav-item ">
+          <a class="nav-link " href="prize.html">الهدايا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="point.html">النقاط</a>
+        </li>
+        <li class="nav-item position-relative ">
+          <span class="number-cart"></span>
+          <a  class="nav-link mr-4" href="cart.html"><i class="fa fa-cart-plus text-success fa-2x"></i></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link log-out " href="#"> تسجيل خروج </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link sign-in sign-inn " href="#"> تسجيل الدخول </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link sign-up " href="#">انشاء حساب</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link my-account text-primary" href="#"></a>
+        </li>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link link-scroll select" data-scroll="services">Services </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-scroll" data-scroll="projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link link-scroll " data-scroll="about">about</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link link-scroll" data-scroll="contact">Contact</a>
-            </li>
-
-           
-          </ul>
-        
-        </div>
-    </div>
-      </nav>
-
-      <div class="slider  ">
-        <div class="overlay"></div>
-       <div class="container h-100">
-           <div class="d-flex flex-nowrap h-100  slider-content align-items-center">
-               <div class="col-10 col-md-6 slider-info ">
-                 <h6 class="text-white p-1 mb-1">Hello, I'm Omar </h6>
-                 <h1 class="head-title p-1 mb-2 font-weight-bolder">Front-end Developer </h1>
-                 <p class="p-1 mb-2 text-white">Building the front end of websites and web applications</p>
-                 <a class="btn btn-primary mb-2 text-white link-scroll" data-scroll="about">more</a>
-
-                 <div class="social">
-                   <div class="social-content bg-white ml-4  rounded-pill"> 
-                    <ul class="row m-0 text-center ml-3 social-content-ul ">
-                      <li class="m-1 p-1 "><a href="https://www.facebook.com/profile.php?id=100006160620281" target="_blank"><i class="fab fa-facebook-f text-primary "></i></a></li>
-                      <li class="m-1 p-1 "><a href="https://github.com/omaralihussien55" target="_blank"><i class="fab fa-github-square text-dark "></i></a></li>
-                      <li class="m-1 p-1 "><a href="https://www.linkedin.com/in/omar-ali-22a43222a" target="_blank"><i class="fab fa-linkedin text-info "></i></a></li>
-                    
-                    </ul>
-                   </div>
-                   <div class="social-btn">
-                    <div class="social-btn-content w-100 h-100">
-                      <i class="fas fa-plus text-white"></i>
-                     
-                    </div>
-                   </div>
-      
-                 </div>
-                </div>
-
-           </div>
-       </div>
-      </div>
-    </header>
-
-
-    <!-- servic -->
-    <section class="mb-t block" id="services">
-   <div class="text-center  ">
-       <h1 class="p-1 my-3 head-title">Services</h1>
-   </div>
-   <div class="container">
-       <div class="row">
-           <!-- start servic-->
-           <div class="col-10 col-md-4 mb-3  mx-auto mx-md-0 block-servic">
-               <div class="div-col h-100 shadow-lg p-1 ">
-                 <div class="w-100 h-50% d-flex mb-2">
-                    <i class="fas fa-palette fa-5x m-auto text-danger"></i>
-                 </div>
-                 <h4 class="p-1 mb-2 text-center text-primary">UI/UX Design</h4>
-                 <p class="p-1 mb-2 text-muted">
-     Designers use them to build interfaces in computerized software or hardware, with an emphasis on form or style.
-    </p> 
-    </div>
-           </div>
-           <!-- end servic -->
-              <!-- start servic-->
-              <div class="col-10 col-md-4 mb-3 mx-auto mx-md-0 block-servic">
-                <div class="div-col h-100 shadow-lg p-1 ">
-                  <div class="w-100 h-50% d-flex mb-2">
-                     <i class="fal fa-phone-laptop fa-5x m-auto text-success"></i>
-                  </div>
-                  <h4 class="p-1 mb-3 text-center text-primary">Responsive Site</h4>
-                  <p class="p-1 mb-2 text-muted">
-                    A site that supports all screen sizes from mobile phones to computers,
-                </p>
-                  </div>
-            </div>
-            <!-- end servic -->
-              <!-- start servic-->
-              <div class="col-10 col-md-4 mb-3 mx-auto mx-md-0 block-servic">
-                <div class="div-col h-100 shadow-lg p-1 ">
-                  <div class="w-100 h-50% d-flex mb-2">
-                     <i class="fab fa-buromobelexperte fa-5x m-auto text-info"></i>
-                  </div>
-                  <h4 class="p-1 mb-2 text-center text-primary">Flexible Site</h4>
-                  <p class="p-1 mb-2 text-muted">
-                    Flexible and streamlined website design with ease for the user   </p>
-                  </div>
-            </div>
-            <!-- end servic -->
-           
-       </div>
-   </div>
-    </section>
-<!-- projects -->
-    <section class="mb-t block" id="projects">
-        <div class="text-center  ">
-            <h1 class="p-1 my-3 head-title">Projects</h1>
-        </div>
-        <div class="container">
-            <div class="row  project-content">
-
-            </div>
-        </div>
-    </section>
-
-    <!-- about -->
-    <section class="mb-t block" id="about">
-        <div class="text-center  ">
-            <h1 class="p-1 my-3 head-title">about</h1>
-        </div>
-        <div class="container">
-            <div  class="row bg-about p-2">
-                <div class="col-md-6">
-                <img src="./imgfood/Programming.gif" class="w-100 h-100">
-                </div>
-
-                <div class="col-md-6 ">
-                     <h5 class="my-2 p-1 text-white">i'm omar</h5>
-                     <h2 class="p-1 mb-2 text-info">Front-end Developer </h2>
-                     <p class="mb-2 text-white">I know programming languages ​​like</p>
-                     <ul class="row mb-2">
-                         <li class="m-1 p-1 text-info  ">html</li>
-                         <li class="m-1 p-1 text-info">css</li>
-                         <li class="m-1 p-1 text-info">javascript</li>
-                         <li class="m-1 p-1 text-info">jquery</li>
-                         <li class="m-1 p-1 text-info">bootstrap</li>
-                         <li class="m-1 p-1 text-info">react</li>
-                     </ul>
-
-                     <p class="p-1 mb-2 text-white">I can design any website that is responsive to all screens in a 
-                         short time with excellent service and better quality
-                        </p>
-
-                        <a class="btn btn-outline-primary mb-2 text-white link-scroll" data-scroll="contact">contact us</a>
-                </div>
-            </div>
-        </div> 
-    </section>
-
-    <!-- contact -->
-    <section class="mb-t block" id="contact">
-        <div class="text-center  ">
-            <h1 class="p-1 my-3 head-title">contact</h1>
-        </div>
-        <div class="container">
-            <div class="row p-2 contact">
-                <div class="col-10 col-md-6 ">
-                    <p class="my-2 p-1"><span class="m-1 p-1  "><i class="fas fa-phone-alt text-primary"></i></span> <span class="m-1 p-1 text-white">01093389354</span></p>
-                    <p class="my-4 p-1"><span class="m-1 p-1 "><i class="fas fa-envelope text-warning"></i></span> <span class="m-1 p-1 text-white">omaralihussien55@gmail.com</span></p>
-               
-                </div>
-
-                <div class="col-10 col-md-6">
-                   <ul class="row">
-                    <li class="m-2 p-1 "><a href="https://www.facebook.com/profile.php?id=100006160620281" target="_blank"><i class="fab fa-facebook-f text-primary "></i></a></li>
-                    <li class="m-2 p-1 "><a href="https://github.com/omaralihussien55" target="_blank"><i class="fab fa-github-square text-dark "></i></a></li>
-                    <li class="m-2 p-1 "><a href="https://www.linkedin.com/in/omar-ali-22a43222a/" target="_blank"><i class="fab fa-linkedin text-info "></i></a></li>
-                  
-                  </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- footer -->
-    <section class="p-2 bg-dark mt-5 mb-1">
-     <div class="container ">
-
-       <ul class="row justify-content-center mt-2">
-        <li class="m-2 p-1 "><a href="https://www.facebook.com/profile.php?id=100006160620281" target="_blank"><i class="fab fa-facebook-f text-primary fa-2x"></i></a></li>
-        <li class="m-2 p-1 "><a href="https://github.com/omaralihussien55" target="_blank"><i class="fab fa-github-square text-white fa-2x"></i></a></li>
-        <li class="m-2 p-1 "><a href="https://www.linkedin.com/in/omar-ali-22a43222a/" target="_blank"></a>><i class="fab fa-linkedin text-info fa-2x"></i></a></li>
       
       </ul>
-      <p class="text-white p-2 my-2 text-center">&copy; COPYRIGHT 2022 TO US</p>
+     
+    </div>
+  </div>
+  </nav>
+<div class="form-content ">
+ 
+  <form class="w-100 h-100">
+     <div class="container h-100 ">
+       <div class="h-100 yes-account ">
+             
+          <div class="row h-100  ">
+            <div class="p-3 position-relative col-8 col-sm-6 m-auto bg-white d-flex justify-content-center flex-column">
+              <h4 class="text-center mb-2 p-2 text-primary text-monospace">تسجيل الدخول</h4>
+              <span class="close">x</span>
+              <input id="b-name" type="text" class="d-block mb-3 p-2 rounded-pill shadow-lg border-0 " placeholder=" اسم المستخدم او ايميل">
+                  <input id="b-pass" type="password" class="d-block mb-3 p-2 rounded-pill shadow-lg border-0" placeholder="رقم سرى">
+                      <button id="signin" type="button" class=" btn btn-primary mb-3 p-2 rounded-pill shadow-lg border-0">تسجيل الدخول</button>
+                      <!-- <a class="sign-up btn btn-outline-primary" href="#"> ليس لدى حساب</a> -->
+            </div>
+          </div>
+        </div>
+<!--                 -->
+<div class="h-100 no-account ">
+
+          <div class="row h-100  ">
+            <div class="p-3 position-relative col-8 col-sm-6 m-auto bg-white d-flex justify-content-center flex-column">
+              <h4 class="text-center mb-2 p-2 text-primary text-monospace">انشاء حساب</h4>
+              <h6 class="text-center aa alert-1  alert alert-success text-monospace">تم انشاء حساب</h6>
+              <h6 class="text-center aa alert-2  alert alert-danger text-monospace"> فشل انشاء حساب </h6>
+              <span class="close">x</span> 
+              <input id="a-name" type="text" class="d-block mb-3 p-2 rounded-pill shadow-lg border-0 " placeholder="اسم المستخدم">
+                  <input id="a-email" type="email" class="d-block mb-3 p-2 rounded-pill shadow-lg border-0" placeholder="ايميل">
+                  <input id="a-pass" type="password" class="d-block mb-3 p-2 rounded-pill shadow-lg border-0 " placeholder="رقم سرى">
+                  
+                       
+                  <button id="signup" type="button" class="btn btn-primary mb-3 p-2 rounded-pill shadow-lg border-0">انشاء حساب</button>
+                      <!-- <a class="sign-in btn btn-outline-primary" href="#">  لدى حساب بالفعل</a> -->
+            </div>
+          </div>
+        </div>
      </div>
-    </section>
-    <script src="./js/jquery-3.5.1.min.js"></script>
+  </form>   
+</div>
+  <section class="slider text-center">
+    <div class="overlay"></div>
+    <div class="container h-100">
+           <div class="row h-100 ">
+             <div class="col-md-9 m-auto text-white">
+                  <h1 class="text-monospace">شارك برايك</h1>
+                  <p class="text-monospace">قول رايك بكل صراحه وحياديه وجمع نقط واكسب جوايز قيمه</p>
+                  <button class="btn btn-primary more">المزيد</button>
+             </div>
+           </div>
+    </div>
+  </section>
+
+  
+<section class="home my-4 p-2 text-center">
+ 
+  <div class="container">
+    <div class="text-center mb-3">
+      <h3 class="title-home text-monospace">
+        قم بإجراء الاستطلاعات واكسب النقاط التي يمكن استبدالها بمجموعة متنوعة من المكافآت</h3>
+    </div>
+    <div class="row">
+       <div class="  col-md-6  ">
+         <div class="rewards  m-auto">
+           <div class="img-rewards h-75  bg-warning  ">
+                <img src="./img/Gift card-pana.png" class="h-100 w-100 rounded-circle  ">
+           </div>
+           <h4 class="my-3 text-monospace ">بطاقات هدايا</h4>
+         </div>
+       </div>
+       <!--  -->
+       <div class="col-md-6  ">
+        <div class="rewards  m-auto">
+          <div class="img-rewards h-75   ">
+               <img src="./img/Winners-cuate.png" class="h-100 w-100 rounded-circle  ">
+          </div>
+          <h4 class="my-3 text-monospace"> جوايز </h4>
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-md-6  ">
+        <div class="rewards  m-auto">
+          <div class="img-rewards h-75    ">
+               <img src="./img/Christmas charity-cuate.png" class="h-100 w-100 rounded-circle  ">
+          </div>
+          <h4 class="my-3 text-monospace">تبرعات </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+           
+    
+   <script src="./js/jquery-3.5.1.min.js"></script>
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                       
     <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/porto.js"></script>
+    <script src="./js/birds.js"></script>
 </body>
 </html>
