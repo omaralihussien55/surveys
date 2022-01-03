@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+input{
+    outline: 0;
+}
+button {
+    outline: 0 !important;
+}
+body{
+direction: rtl;
+text-align: right;
+background-color: white;
+}
+
+.slider{
+    background-image: url("../img/phone9.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.slider .overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background-color: rgb(15, 15, 15,60%);
+
+}
+
+.form-content{
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(73, 68, 68,50%);
+    z-index: 99;
+}
+
+.form-content{
+    display: none;
+}
+.form-content .close{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    color: rgb(14, 12, 12);
+    z-index: 1000;
+    cursor: pointer;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.aa{
+    display: none;
+}
+.log-out{
+    display: none;
+}
+.hd .info{
+    height: 270px;
+}
+
+.hd .info .price{
+    background-color: rgb(46, 45, 46);
+    color: white;
+}
+
+.catogry-rewards li.active{
+    background-color: tomato;
+    color: white;
+    
+}
+
+.catogry-rewards li:hover{
+    background-color: rgb(209, 31, 209);
+    color: white;
+    cursor: pointer;
+}
+.home .rewards{
+    height: 350px;
+    
+}
+.img-rewards{
+    cursor: pointer;
+}
+
+.number-survy{
+    position: absolute;
+    display: block;
+    top: 0;
+    left:  0;
+    background-color: rgb(207, 12, 12);
+    color: white;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: -30px;
+    text-align: center;
+}
+.number-cart{
+    position: absolute;
+    display: block;
+    top: -8;
+    left:  36px;
+    background-color: rgb(207, 12, 12);
+    color: white;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: -30px;
+    text-align: center; 
+}
+.opinion-content li{
+    cursor: pointer;
+}
+
+.opinion-content li.choose{
+    background-color: green;
+    color: white;
+}
+
+button.noclick{
+    pointer-events: none;
+}
+span.noclick{
+    pointer-events: none;
+}
+
+.result-opinion p {
+    display: none;
+}
+
+#noclicking{
+
+    background-color: red;
+    color: white;
+    opacity: .3;
+}
+
+
+
+.no-points{
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 13px;
+   
+    
+}
+
+.modal-card{
+    position: fixed;
+    background-color: rgb(51, 54, 51,20%);
+    top: 0;
+    left: 0;
+   bottom: 0;
+   right: 0;
+
+  display: none;
+  
+}
+.modal-card .container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100%;
+     width: 100;
+}
+.operation{
+    cursor: pointer;
+    /* background-color: black; */
+   background-color: rgb(63, 58, 58);
+   width: 20px;
+display: block;
+    padding: 5px;
+color: white;
+height: 20px;
+line-height: 10px;
+}
+.text-qun{
+    background-color: white; 
+}
+
+.modal-contentt{
+   /* flex-wrap: nowrap; */
+}
+
+.modal-details{
+   
+}
